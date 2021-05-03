@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .cart-content .left {
+        display: none;
+    }
+
+    .cart-wrapper h2 {
+        text-align: center;
+    } 
+    .cart-content {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+}

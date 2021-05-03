@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    header nav menu {
+        display: none;
+
+    }
+    .burger-btn {
+        width: 180px; 
+        height: 41px;
+        background-color: #5094f2;
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        padding: 10px;
+    }
+     .burger-btn:hover {
+        box-shadow: 4px 4px 7px 0px rgb(53 47 47);
+    }
+    
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 0;
+    }
+}

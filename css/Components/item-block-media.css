@@ -1,0 +1,38 @@
+@media (max-width: 860px) {
+
+    .content-wrapper .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+
+    .content-wrapper .container div:not(:last-child) {
+        margin: 0 0 20px 0 ;
+        width: 50%;
+    }   
+
+    .content-wrapper .container div:not(:last-child) p {
+        padding: 0 40px;
+    }
+
+    .content-wrapper .container .product3 {
+        padding: 0 40px;
+        width: 50%;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .content-wrapper .container div:not(:last-child) {
+        width: 100%;
+    }
+
+    .content-wrapper .container .product3 {
+        width: 100%;
+        padding: 0 40px;
+    }
+
+}

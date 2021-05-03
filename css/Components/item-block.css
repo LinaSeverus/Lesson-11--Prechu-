@@ -1,0 +1,39 @@
+/*ITEM BLOCK*/
+
+
+.content-wrapper {
+    margin-bottom: 97px;
+    
+}
+
+.content-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.content-wrapper .container div {   /**/
+    width: calc(100% / 3);
+}
+
+.content-wrapper .container div:not(:last-child) {
+    margin-right: 135px ;
+} 
+
+.content-wrapper img {
+    margin-bottom: 28px;
+   
+}
+
+
+.content-wrapper h3 {
+    font-size: 20px;
+    color: #5094f2;
+    margin-bottom: 8px;
+}
+
+.content-wrapper p {
+    font-size: 14px;
+    
+}

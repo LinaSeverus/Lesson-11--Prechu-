@@ -1,0 +1,66 @@
+header {
+    background-color: white; 
+    padding: 0 100px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+
+
+.header-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.logo {
+    display: flex;
+}
+
+.logo p {
+    
+    font-size: 34px;
+    padding: 5px;
+}
+
+header nav {
+    display: flex;
+    height: 90px;
+}
+
+header nav menu {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    height: 100%;
+    align-items: stretch;
+    
+    
+}
+
+header nav menu li {
+    display: flex;
+    align-items: center; 
+    border-bottom: 3px solid transparent;
+    padding-top: 3px;
+}
+
+header nav menu li a {
+    color: black;
+        
+}
+
+header nav menu li:hover {
+    
+    border-bottom: 3px solid #5094f2;
+}
+
+
+header nav menu li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.burger-btn {
+    display: none;
+}

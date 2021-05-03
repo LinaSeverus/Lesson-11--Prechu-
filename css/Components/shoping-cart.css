@@ -1,0 +1,33 @@
+/*SHOPPING CART*/
+
+.cart-content {
+    display: flex;
+    justify-content: space-between;
+    
+ 
+}
+
+.cart-wrapper .cart-content div {
+    align-items: center;
+    width: 50%;
+}
+
+.cart-wrapper h2 {
+    font-size: 42px;
+    margin-bottom: 17px;
+}
+
+.cart-content h3 {
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+
+.cart-content p {
+    line-height: 30px;
+}
+
+
+
+.left {
+    margin-top: 20px;
+}

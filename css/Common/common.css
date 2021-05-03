@@ -1,0 +1,13 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+} 
+
+header, footer, .banner {
+    width: 100%;
+} 
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 990px;
+}
